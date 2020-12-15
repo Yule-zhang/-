@@ -55,7 +55,7 @@ $(function(){
 
                 localStorage.setItem('token',res.token);
                 layer.msg(res.message, {
-                    time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    time: 1000 //2秒关闭（如果不配置，默认是3秒）
                   }, function(){
                     location.href='/home/index.html';
                   });  
