@@ -15,7 +15,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: darkcyan;
+    background-color: lightseagreen;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
@@ -28,4 +28,7 @@
 }
 #tex{
     font-size: 12px;
+}
+iframe{
+    background-color: lightseagreen;
 }
